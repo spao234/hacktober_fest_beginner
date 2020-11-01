@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string decode_word;
+    string store = "";
+
+    cout << "Enter a your secret word: ";
+    getline(cin, decode_word);
+
+    for (int i = 0; i < decode_word.size(); ++i) {
+        if ((decode_word[i] >= 'a' && decode_word[i] <= 'z') || (decode_word[i] >= 'A' && decode_word[i] <= 'Z')) {
+            store = store + decode_word[i];
+        }
+    }
+    
+    decode_word = store;
+    
+    cout << "Reveal word: " << decode_word;
+    
+    return 0;
+}
