@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+void reverse(const string& phrase);
+
+int main() {
+    string phrase;
+    
+    cout << "Enter a string: " << endl;
+    cin >> phrase;
+    
+    cout << "Reversed string: " << endl;
+    reverse(phrase);
+    
+    return 0;    
+}
+
+void reverse(const string& phrase) {
+    int num_chars = phrase.size();
+    
+
+    if(num_chars == 1) {
+       cout << phrase << endl;
+    } else {
+       cout << phrase[num_chars - 1];
+       reverse(phrase.substr(0, num_chars - 1));
+    }
+}

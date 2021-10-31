@@ -1,6 +1,5 @@
 # Python program to find the largest number among the three input numbers
 
-print("Welcome! Let's find the largest number.")
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 num3 = float(input("Enter third number: "))
