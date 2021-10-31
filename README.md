@@ -1,5 +1,6 @@
 # hacktober_fest_beginner
-Testing out some pull requests!
-
-This is my first time making a repo in a while!
+へ(❍∠❍)へ   Welcome to my repo for Hacktober Fest!  [¬º-°]¬
 A perfect place for anytype of c++ and python projects.
+This repo is meant to house random programs. Nothing
+should be edited or changed.
+Please be respectful and appropriate. Thank you!
